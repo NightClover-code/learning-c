@@ -32,6 +32,20 @@ int main()
   long long int l = 9223372036854775807;            // 8 bytes (-9 quintillion to +9 quintillion)
   unsigned long long int m = 12223372036854775807U; // 8 bytes (0 to +18 quintillion)
 
+  /* FORMAT SPECIFIERS
+    %c = character
+    %d = integer
+    %s = string (array of characters)
+    %f = float
+    %lf = double
+  */
+
+  /* OPTIONAL
+    %.1 = decimal precision
+    %1 = minimum field width
+    %- = left align
+  */
+
   printf("%c\n", a);      // single character
   printf("%s\n", b);      // array of characters
   printf("%0.15f\n", c);  // float - show 15 digits
