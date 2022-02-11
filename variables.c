@@ -2,6 +2,11 @@
 
 int main()
 {
+  /* Notes:
+        - this is just a simple intro to variables, check
+          dataTypes for more details.
+  */
+
   int age = 16;         // integer
   float gpa = 2.06;     // floating point nums
   char grade = 'B';     // single character
