@@ -18,6 +18,14 @@ int main()
   float d = x / (float)y; // division - check notes
   int e = x % y;          // modulus - gives remainder
 
+  /* SHORTCUTS
+    x += 1 // x = x + 1
+    x -= 1 // x = x - 1
+    x *= 1 // x = x * 1
+    x /= 1 // x = x / 1
+    x %= 1 // x = x % 1
+  */
+
   printf("%d\n", a);
   printf("%d\n", b);
   printf("%d\n", c);
