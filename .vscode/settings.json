@@ -1,3 +1,10 @@
 {
-  "C_Cpp.errorSquiggles": "Enabled"
+  "C_Cpp.errorSquiggles": "Enabled",
+  "files.associations": {
+    "*.js": "javascript",
+    ".env.local": "env",
+    "*.html": "html",
+    ".env.development": "env",
+    "stdio.h": "c"
+  }
 }
