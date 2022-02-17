@@ -7,4 +7,6 @@
 - operators
 - inputs
 - math
+- conditionals
+- switch
 

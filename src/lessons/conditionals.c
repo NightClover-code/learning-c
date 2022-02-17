@@ -5,6 +5,8 @@ int main() {
         - If an "else if" statement evaluates to false, the program skips to
           check if the next one is true and so one.
         - The "else" statement runs if all above conditions were unmet.
+        - Don't confuse "=" with "==", "=" is the assignment operator, while
+          "==" is the comparison operator.
   */
 
   double age;
