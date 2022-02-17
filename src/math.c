@@ -4,30 +4,25 @@
 int main()
 {
   /* Notes:
-        - During division in this section, x / y result is a float, ig: 2/3.
-          Which means we need to store the result in a float, and change x or y to
-          become a float during the operation.
-        - When you preceed the variable by the "&" sign, it refers to its address, not the value.
-          More on that later.
-        - 'scanf' cannot read spaces, we use 'fgets' to read spaces.
+        - Include the math library <math.h> to use math functions.
   */
 
-  double a = sqrt(9);   // square root
-  double b = pow(2, 4); // 2 to the power of 4
-  int c = round(3.14);
-  int d = ceil(3.14);
-  int e = sqrt(9);
-  double f = sqrt(9);
-  double g = sqrt(9);
-  double h = sqrt(9);
-  double i = sqrt(9);
-  double j = sqrt(9);
+  double a = sqrt(9);    // square root
+  double b = pow(2, 4);  // 2 to the power of 4
+  int c = round(3.6);    // rounds to the closest integer
+  int d = ceil(3.14);    // rounds to the closest next integer
+  int e = floor(8.9);    // rounds to the closest previous integer
+  double f = fabs(-100); // absolute value
+  double g = log(3);     // logarithms
+  double h = sin(9);     // sinus
+  double i = cos(9);     // cosinus
+  double j = tan(9);     // tangent
 
   printf("\na: %lf", a);
   printf("\nb: %lf", b);
-  printf("\nc: %lf", c);
-  printf("\nd: %lf", d);
-  printf("\ne: %lf", e);
+  printf("\nc: %d", c);
+  printf("\nd: %d", d);
+  printf("\ne: %d", e);
   printf("\nf: %lf", f);
   printf("\ng: %lf", g);
   printf("\nh: %lf", h);
