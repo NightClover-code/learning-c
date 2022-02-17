@@ -19,7 +19,7 @@ int main()
 
   // fgets(name, 25, stdin);
 
-  printf("How old are you?: ");
+  printf("\nHow old are you?: ");
   scanf("%d", &age);
 
   printf("\nHello %s, how are you today?", name);

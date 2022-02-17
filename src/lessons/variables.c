@@ -3,8 +3,9 @@
 int main()
 {
   /* Notes:
-        - this is just a simple intro to variables, check
+        - This is just a simple intro to variables, check
           dataTypes for more details.
+        - You can initiate empty variables, and add a value later.
   */
 
   int age = 16;         // integer

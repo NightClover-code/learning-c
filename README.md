@@ -1,4 +1,4 @@
-### STEPS
+### LESSONS IN ORDER
 
 - comments
 - variables
@@ -6,3 +6,5 @@
 - constants
 - operators
 - inputs
+- math
+
