@@ -1,22 +1,21 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
   /* Notes:
         - This is just a simple intro to variables, check
           dataTypes for more details.
         - You can initiate empty variables, and add a value later.
   */
 
-  int age = 16;         // integer
-  float gpa = 2.06;     // floating point nums
-  char grade = 'B';     // single character
-  char name[] = "Jack"; // array of characters (kinda like string)
+  int age = 16;          // integer
+  float gpa = 2.06;      // floating point nums
+  char grade = 'B';      // single character
+  char name[] = "Jack";  // array of characters (kinda like string)
 
-  printf("You are %d years old! \n", age);      // print int
-  printf("Hello %s! \n", name);                 // print string
-  printf("Your average grade is %c \n", grade); // print char
-  printf("Your gpa is %f \n", gpa);             // print float
+  printf("You are %d years old! \n", age);       // print int
+  printf("Hello %s! \n", name);                  // print string
+  printf("Your average grade is %c \n", grade);  // print char
+  printf("Your gpa is %f \n", gpa);              // print float
 
   return 0;
 }

@@ -7,9 +7,14 @@ int main() {
         - It's common to use uppercasing for constants.
   */
 
-  const float PI = 3.14159;
+  double age;
 
-  printf("%f", PI);
+  printf("Enter your age: ");
+  scanf("%lf", &age);
+
+  if (age >= 18) {
+    printf("You are now signed in!");
+  }
 
   return 0;
 }

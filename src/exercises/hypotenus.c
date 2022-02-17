@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
-int main()
-{
+int main() {
   /* Problem:
         - Calculate the hypotenus of a right triangle using pythagore's theorem.
   */

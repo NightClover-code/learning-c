@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
-int main()
-{
+int main() {
   /* Problem:
         - Create a program that calculates the circumference of a circle,
           the radius should provided by the user.
