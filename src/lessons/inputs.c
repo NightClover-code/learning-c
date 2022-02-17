@@ -4,9 +4,9 @@ int main() {
   /* Notes:
         - During division in this section, x / y result is a float, ig: 2/3.
           Which means we need to store the result in a float, and change x or y
-     to become a float during the operation.
+          to become a float during the operation.
         - When you preceed the variable by the "&" sign, it refers to its
-     address, not the value. More on that later.
+          address, not the value. More on that later.
         - 'scanf' cannot read spaces, we use 'fgets' to read spaces.
   */
 

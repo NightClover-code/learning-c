@@ -8,7 +8,7 @@ int main() {
           an overflow occurs and resets f to 0.
         - C is not object-oriented, which means you can't directly declare
           a string as a data type, we're using arrays of characters in this
-     section. More on strings later.
+          section. More on strings later.
   */
 
   char a = 'C';        // single character

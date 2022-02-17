@@ -7,6 +7,7 @@
     ".env.development": "env",
     "stdio.h": "c",
     "math.h": "c",
-    "corecrt_math.h": "c"
+    "corecrt_math.h": "c",
+    "string.h": "c"
   }
 }
