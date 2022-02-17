@@ -5,6 +5,8 @@
     ".env.local": "env",
     "*.html": "html",
     ".env.development": "env",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "math.h": "c",
+    "corecrt_math.h": "c"
   }
 }

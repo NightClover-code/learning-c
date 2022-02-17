@@ -46,19 +46,19 @@ int main()
     %- = left align
   */
 
-  printf("%c\n", a);      // single character
-  printf("%s\n", b);      // array of characters
-  printf("%0.15f\n", c);  // float - show 15 digits
-  printf("%0.15lf\n", d); // double - show 15 digits
-  printf("%d\n", e);      // boolean
-  printf("%d\n", f);      // char as an int
-  printf("%c\n", g);      // unsigned char as a character - ASCII table
-  printf("%d\n", h);      // short integer
-  printf("%d\n", i);      // unsigned short integer
-  printf("%d\n", j);      // integer
-  printf("%u\n", k);      // unsigned integer
-  printf("%lld\n", l);    // long long integer
-  printf("%llu\n", m);    // unsigned long long integer
+  printf("a: %c\n", a);      // single character
+  printf("b: %s\n", b);      // array of characters
+  printf("c: %0.15f\n", c);  // float - show 15 digits
+  printf("d: %0.15lf\n", d); // double - show 15 digits
+  printf("e: %d\n", e);      // boolean
+  printf("f: %d\n", f);      // char as an int
+  printf("g: %c\n", g);      // unsigned char as a character - ASCII table
+  printf("h: %d\n", h);      // short integer
+  printf("i: %d\n", i);      // unsigned short integer
+  printf("j: %d\n", j);      // integer
+  printf("k: %u\n", k);      // unsigned integer
+  printf("l: %lld\n", l);    // long long integer
+  printf("m: %llu\n", m);    // unsigned long long integer
 
   return 0;
 }
