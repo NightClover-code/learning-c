@@ -10,3 +10,6 @@
 - conditionals
 - switch
 
+### PRACTICE EXERCISES
+- circle
+- hypotenus
