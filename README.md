@@ -2,7 +2,7 @@
 
 - comments
 - variables
-- data types
+- data-types
 - constants
 - operators
 - inputs
