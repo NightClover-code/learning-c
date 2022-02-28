@@ -10,7 +10,7 @@ int main() {
         - 'scanf' cannot read spaces, we use 'fgets' to read spaces.
   */
 
-  char name[25];  // 25 bytes
+  char name[1];  // 25 bytes
   int age;
 
   printf("\nWhat's your name?: ");
