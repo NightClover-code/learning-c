@@ -2,7 +2,7 @@
 
 - comments
 - variables
-- data types
+- data-types
 - constants
 - operators
 - inputs
@@ -10,3 +10,6 @@
 - conditionals
 - switch
 
+### PRACTICE EXERCISES
+- circle
+- hypotenus
