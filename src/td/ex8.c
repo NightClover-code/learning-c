@@ -21,8 +21,6 @@ int main() {
 
       i++;
     }
-  } else {
-    fact = 1;
   }
 
   printf("La factorielle de %d est: %d", n, fact);
