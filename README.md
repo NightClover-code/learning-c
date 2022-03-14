@@ -9,6 +9,7 @@
 - math
 - conditionals
 - switch
+- loops
 
 ### PRACTICE EXERCISES
 - circle
