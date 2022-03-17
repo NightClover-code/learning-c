@@ -14,8 +14,9 @@ int main() {
   char a = 'C';        // single character
   char b[] = "Drake";  // array of characters - kinda like string
 
-  float c = 3.146548;              // less precise floats - up to 7 digits
-  double d = 3.14654651654651615;  // more precise floats - up to 16 digits
+  float c = 3.146548;  // less precise floats - up to 7 digits
+  double d =
+      3.14654651654651615;  // more precise floats - up to 16 digits, 8 bytes
 
   bool e = true;  // boolean - true or false
 
