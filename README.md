@@ -14,3 +14,4 @@
 ### PRACTICE EXERCISES
 - circle
 - hypotenus
+- class exercises
