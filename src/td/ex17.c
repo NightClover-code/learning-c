@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int i, j, n, arr[50][50];
+  int i, j, n, arr[100][100];
 
   printf("Entrez un entier naturel n: ");
   scanf("%d", &n);
@@ -22,7 +22,9 @@ int main() {
 
   for (i = 0; i <= n; i++) {
     for (j = 0; j <= i; j++) {
+      // if (j != 0) {
       printf("%d", arr[i][j]);
+      // }
     }
     printf("\n");
   }
