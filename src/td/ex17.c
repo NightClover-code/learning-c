@@ -1,10 +1,7 @@
 #include <stdio.h>
 
-int main() {
-  int i, j, n, arr[100][100];
-
-  printf("Entrez un entier naturel n: ");
-  scanf("%d", &n);
+void pascal(int n) {
+  int i, j, arr[1000][1000];
 
   for (i = 0; i <= n; i++) {
     for (j = 0; j <= i; j++) {
@@ -22,6 +19,15 @@ int main() {
     }
     printf("\n");
   }
+}
+
+int main() {
+  int i, j, n, arr[100][100];
+
+  printf("Entrez un entier naturel n: ");
+  scanf("%d", &n);
+
+  pascal(n);
 
   return 0;
 }

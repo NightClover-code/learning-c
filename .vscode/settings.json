@@ -10,6 +10,7 @@
     "corecrt_math.h": "c",
     "string.h": "c",
     "conio.h": "c",
-    "ex1.C": "cpp"
+    "ex1.C": "cpp",
+    "ex19.C": "cpp"
   }
 }
