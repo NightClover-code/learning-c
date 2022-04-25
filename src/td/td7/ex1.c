@@ -1,4 +1,3 @@
-#include <math.h>
 #include <stdio.h>
 
 double EXP(double a, int k) {

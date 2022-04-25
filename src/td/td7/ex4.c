@@ -1,4 +1,3 @@
-#include <math.h>
 #include <stdio.h>
 
 long SOMME_TAB(int tab[100], int n) {
