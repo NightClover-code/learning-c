@@ -2,7 +2,12 @@
 #include <stdio.h>
 
 double EXP(double a, int k) {
-  double res = pow(a, k);
+  int i;
+  double res = 1.0;
+
+  for (i = 0; i < k; i++) {
+    res *= a;
+  }
 
   return res;
 }
