@@ -12,10 +12,10 @@ int main() {
   len1 = strlen(ch1);
   len2 = strlen(ch2);
 
-  strncpy(ch3, ch1, floor(len1 / (double)2));
-  strncat(ch3, ch2, floor(len2 / (double)2));
+  strncpy(ch3, strrev(ch1), floor(len1 / (double)2));
+  strncat(ch3, strrev(ch2), floor(len2 / (double)2));
 
-  printf("Le resultat est: %s", ch3);
+  printf("Le resultat est: %s", strrev(ch3));
 
   return 0;
 }

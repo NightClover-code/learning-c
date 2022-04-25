@@ -14,8 +14,8 @@ int main() {
 
   for (i = 0; i < n / 2; i++) {
     temp = values[i];
-    values[i] = values[i + 1];
-    values[i + 1] = temp;
+    values[i] = values[n - i - 1];
+    values[n - i - 1] = temp;
   }
 
   printf("tableau inversee: [ ");
