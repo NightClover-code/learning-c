@@ -10,6 +10,8 @@
 - conditionals
 - switch
 - loops
+- structs
+- pointers
 
 ### PRACTICE EXERCISES
 - circle
