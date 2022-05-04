@@ -12,6 +12,8 @@
 - loops
 - structs
 - pointers
+- write files
+- read files
 
 ### PRACTICE EXERCISES
 - circle
