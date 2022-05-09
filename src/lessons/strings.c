@@ -23,7 +23,6 @@ int main() {
 
   int result = strlen(string1);           // return string length as int
   int result = strcmp(string1, string2);  // compare chars from given strings
-  int result = strncmpi();
 
   printf("%s\n", string1);
   printf("%s\n", string2);

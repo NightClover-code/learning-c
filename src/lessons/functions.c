@@ -1,11 +1,6 @@
 #include <stdio.h>
 
-int addNums(int a, int b) { return a + b; }
-
-void doStuff() {
-  print("I want to be repeated!");
-  print("Me too!");
-}
+int addNums(int a, int b);
 
 int main() {
   /* Notes:
@@ -16,11 +11,11 @@ int main() {
         - We can call functions with opening brackets, eg: "doStuff()".
   */
 
-  doStuff();
-
   int result = addNums(3, 5);
 
   printf("Result: %d", result);
 
   return 0;
 }
+
+int addNums(int a, int b) { return a + b; }
