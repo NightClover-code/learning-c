@@ -11,6 +11,7 @@
     "string.h": "c",
     "conio.h": "c",
     "ex1.C": "cpp",
-    "ex19.C": "cpp"
+    "ex19.C": "cpp",
+    "ex7.C": "cpp"
   }
 }
