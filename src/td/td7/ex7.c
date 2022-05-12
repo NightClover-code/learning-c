@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// TODO
+
 void MULTI_MATRICES(int *MAT1[100][100], int *MAT2[100][100],
                     int *MAT3[100][100], int n, int m, int p) {
   int i, j, k, mat3[100][100];
