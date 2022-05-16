@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Person {
+typedef struct {
   char name[12];
   int age;
-};
+} Person;
 
 int main() {
-  struct Person personA;
-  struct Person personB;
+  Person personA;
+  Person personB;
 
   strcpy(personA.name, "Joe");  // can't mutate strings, use string copy
   personA.age = 19;             // mutate numbers directly
