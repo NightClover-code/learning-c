@@ -1,59 +1,32 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 
 typedef struct {
   int re;
   int img;
 } Complex;
 
-void printCmplx(char s[], Complex z1) {
-  printf("%s: %d + %di\n", s, z1.re, z1.img);
-}
-
-Complex createCmplx(int re, int img) {
-  Complex z;
-
-  z.re = re;
-  z.img = img;
-
-  return z;
-}
-
-Complex sumComplex(Complex z1, Complex z2) {
-  Complex res;
-
-  res.re = z1.re + z2.re;
-  res.img = z1.img + z2.img;
-
-  return res;
-}
-
-Complex prodCmplx(Complex z1, Complex z2) {
-  Complex res;
-
-  res.re = z1.re * z2.re - z1.img * z2.img;
-  res.img = z1.re * z2.img + z2.re * z1.img;
-
-  return res;
+void printCmplx(char s[], int i, Complex z1) {
+  printf("%s%d: %d + %di\n", s, i, z1.re, z1.img);
 }
 
 int main() {
-  int re1, img1, re2, img2;
-  Complex sum, prod;
+  Complex *Z;
+  int N;
 
-  printf("Entrez le reel et l imaginaire de z1: ");
-  scanf("%d %d", &re1, &img1);
-  Complex z1 = createCmplx(re1, img1);
+  printf("Longueur du tableau: ");
+  scanf("%d", &N);
 
-  printf("Entrez le reel et l imaginaire de z2: ");
-  scanf("%d %d", &re2, &img2);
-  Complex z2 = createCmplx(re2, img2);
+  Z = (Complex *)malloc(N * sizeof(Complex));
 
-  sum = sumComplex(z1, z2);
-  prod = prodCmplx(z1, z2);
+  for (int i = 0; i < N; i++) {
+    printf("z%d: ", i);
+    scanf("%d %d", &Z[i].re, &Z[i].img);
+  }
 
-  printCmplx("somme", sum);
-  printCmplx("produit", prod);
+  for (int i = 0; i < N; i++) {
+    printCmplx("z", i, Z[i]);
+  }
 
   return 0;
 }
