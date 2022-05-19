@@ -1,4 +1,4 @@
-### LESSONS IN ORDER
+### LESSONS IN ORDER 
 
 - comments
 - variables
@@ -18,4 +18,5 @@
 ### PRACTICE EXERCISES
 - circle
 - hypotenus
+- sorting
 - class exercises
