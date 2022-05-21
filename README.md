@@ -19,4 +19,4 @@
 - circle
 - hypotenus
 - sorting
-- class exercises
+- class quizes
