@@ -1,36 +1,17 @@
 #include <stdio.h>
 
-int premier(int n) {
-  int i, c = 0;
-
-  for (i = 1; i <= n; i++) {
-    if (n % i == 0) {
-      c++;
-    }
-  }
-
-  return c == 2 ? 1 : 0;
-}
-
 int main() {
-  int n, i = 2, j = 0;
-  int arr[1];
+  int row = 3, col = 2;
 
-  printf("Entrez le nombre n: ");
-  scanf("%d", &n);
+  int arr[3][2] = {{2, 3}, {4, 5}, {6, 7}};
 
-  while (i >= 0 && j < n) {
-    if (premier(i) == 1) {
-      arr[j] = i;
+  int(*ptr)[3][2] = &arr;
 
-      j++;
+  for (int i = 0; i < 3; i++) {
+    printf("\n");
+    for (int j = 0; j < 2; j++) {
+      printf("%d, ", (*ptr)[i][j]);
     }
-
-    i++;
-  }
-
-  for (i = 0; i < j; i++) {
-    printf("%d, ", arr[i]);
   }
 
   return 0;
