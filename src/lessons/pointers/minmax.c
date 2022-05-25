@@ -20,9 +20,10 @@ void minMax(int arr[], int min, int max) {
 
 void pMinMax(int arr[], int *min, int *max) {
   /*
-  Solution: use pointers that receive addresses of min and max, and store them
-  in *max and *min. Now we can mutate the original variables, because we hold
-  their addresses
+  Solution:
+        use pointers that receive addresses of min and max, and store them
+        in *max and *min. Now we can mutate the original variables, because
+        we hold their addresses
 */
   *min = *max = arr[0];  // pointing to the first element
 
