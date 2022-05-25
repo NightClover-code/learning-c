@@ -13,6 +13,7 @@
     "ex1.C": "cpp",
     "ex19.C": "cpp",
     "ex7.C": "cpp",
-    "stdbool.h": "c"
+    "stdbool.h": "c",
+    "modifers.C": "cpp"
   }
 }
