@@ -11,11 +11,6 @@ int pArraySum(int arr[], int len) {
 }
 
 int main() {
-  /* Notes:
-      - Returning an address is equivalent to returning a pointer.
-      - PS: NEVER return a local variable address,
-      because the function and its local variables will get destroyed after use.
-*/
   int arr[] = {2, 94, 8, 65, 21};
   int len = sizeof(arr) / sizeof(arr[0]);
 
