@@ -18,10 +18,10 @@ void sort(int arr[], int size) {
 }
 
 void printArr(int arr[], int size) {
-  int i;
+  int *p;
 
-  for (i = 0; i < size; i++) {
-    printf("%d, ", arr[i]);
+  for (p = arr; p < arr + size; p++) {
+    printf("%d, ", *p);
   }
 }
 
