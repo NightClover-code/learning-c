@@ -14,6 +14,7 @@
     "ex19.C": "cpp",
     "ex7.C": "cpp",
     "stdbool.h": "c",
-    "modifers.C": "cpp"
+    "modifers.C": "cpp",
+    "ex5.C": "cpp"
   }
 }
