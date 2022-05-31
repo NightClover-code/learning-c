@@ -26,8 +26,23 @@ void printArr(int arr[], int size) {
 }
 
 int main() {
-  int arr[] = {3, 8, 7, 9, 100, 54, 7, 98};
+  int n, i;
+
+  int arr[10];
   int size = sizeof(arr) / sizeof(arr[0]);
+
+  printf("Enter n: ");
+  scanf("%d", &n);
+
+  while (n > 10) {
+    printf("Retry: ");
+    scanf("%d", &n);
+  }
+
+  for (i = 0; i < size; i++) {
+    printf("Entrez l element %d: ", i);
+    scanf("%d", &arr[i]);
+  }
 
   sort(arr, size);
 
