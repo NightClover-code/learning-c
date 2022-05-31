@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-  int arr[] = {8, 3, 4, 6, 17, 27, 37, 49, 51};
+  int arr[] = {1, 3, 4, 6, 17, 27, 37, 49, 51};
 
-  int *pArr = NULL;
+  int *pt = NULL;
 
-  pArr = arr;
+  pt = arr;
 
-  printf("%p\n", pArr);
-  printf("%p", &pArr);
+  printf("%p\n", &arr[4] - 3);
+  printf("%p", &arr[1]);
 
   return 0;
 }
