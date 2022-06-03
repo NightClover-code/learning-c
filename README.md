@@ -20,3 +20,4 @@
 - hypotenus
 - sorting
 - class quizes
+- pointers
